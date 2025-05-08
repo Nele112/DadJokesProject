@@ -1,9 +1,12 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import fetch from "node-fetch";
 
 export const handler = async (event, context) => {
   const response = await fetch("https://api.api-ninjas.com/v1/dadjokes", {
     headers: {
-      "X-Api-Key": "8yMYaeC9Y/TMy/dqCpRTVw==tyjnddWgC92fnx4V"
+      "X-Api-Key": process.env.API_NINJAS_KEY
     }
   });
 

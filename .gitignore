@@ -10,3 +10,6 @@ node_modules/
 #windows süsteemifailid
 .DS_Store
 Thumbs.dp
+
+#API_key
+.env
