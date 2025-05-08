@@ -1,0 +1,12 @@
+# Local Netlify folder
+.netlify
+
+# NOde.js moodulid (ärge laadige GitHubi)
+node_modules/
+
+#VSCode seadistused (valikuline, kuid tavaliselt ignoreeritakse)
+.vscode/
+
+#windows süsteemifailid
+.DS_Store
+Thumbs.dp

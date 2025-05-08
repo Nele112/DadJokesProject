@@ -1,0 +1,56 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    background: linear-gradient(to right, #ebecc2, #f1f5c2); /*sivun taustalle vaaleankeltainen liukuväri vasemmalta oikealle*/
+    min-height: 100vh; /*vähimmäiskorkeus koko näytön korkeus - sisältö ei jää lyhyeksi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px; /*väli otsikon ja seuraavan elementin välillä */
+    color: black;
+  }
+  
+  #jokeResult {
+    margin-top: 30px; /*väli edellisen elementin jälkeen */
+    max-width: 600px; /* max. leveys vitsikentälle */
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107; /*vasemmalle puolelle korostettu oranssi viiva */
+    padding: 20px;
+    border-radius: 10px; /*pyötistetyt kulmat */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /*kevyt varjo luo kolmiulotteisen vaikutelman */
+  }
+
+  #jokeResult p {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  
+  .laugh-video {
+    /*video ei saa mennä liian isoksi */
+    max-width: 100%;
+    width: 200px;
+    max-height: 200px;
+    height: auto;
+    /*väli yläpuolella olevaan elementtiin */
+    margin-top: 20px;
+    border-radius: 12px; /*pyöristety kulmat videolle */
+    /*keskitys */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feedback-box {
+    margin-top: 20px;
+    text-align: center;
+  } 
+
+  
